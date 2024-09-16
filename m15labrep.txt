@@ -1,0 +1,57 @@
+Problem 1)
+
+E:\m15>python m15p01.py
+20180426224022.158484-360,Seokwon-PC\Seokwon, C:\Windows\system32\cmd.exe,"C:\W
+indows\system32\cmd.exe" ,1016,1732,N/A
+
+20180426224022.158484-360, Seokwon-PC\Seokwon, C:\Windows\system32\conhost.exe,\
+??\C:\Windows\system32\conhost.exe "-20477965801258487712528625987-628961408-197
+409893-25631526-662152434-1089268939,3492,388,N/A
+
+20180426224027.415381-360, Seokwon-PC\Seokwon, C:\WINDOWS\system32\WindowsPowerS
+hell\v1.0\powershell.exe,"C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.
+exe" ,2504,1732,N/A
+
+20180426224027.425098-360, Seokwon-PC\Seokwon, C:\Windows\system32\conhost.exe,\
+??\C:\Windows\system32\conhost.exe "1273886482-687006299-1143196859-688439595-12
+231873641061636266831859581-1499683228,3112,388,N/A
+
+20180426224037.759473-360, Seokwon-PC\Seokwon, C:\Windows\system32\calc.exe,"C:\
+Windows\system32\calc.exe" ,3156,1732,N/A
+
+Problem 2)
+
+E:\m15>python m15p02.py
+20180426224404.734347-360,Seokwon-PC\Seokwon,C:\Windows\system32\conhost.exe,??
+\C:\Windows\system32\conhost.exe "-1345029190410389201-264407921-187613425911970
+95556-1215414838889817041154720945,3196,388,SeChangeNotifyPrivilege
+
+20180426224404.694289-360,Seokwon-PC\Seokwon,C:\WINDOWS\system32\WindowsPowerShe
+ll\v1.0\powershell.exe,"C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.ex
+e" ,3376,1732,SeChangeNotifyPrivilege
+
+20180426224423.701655-360,Seokwon-PC\Seokwon,C:\Windows\system32\notepad.exe,"C:
+\Windows\system32\notepad.exe" ,3072,1732,SeChangeNotifyPrivilege
+
+20180426224428.919158-360,Seokwon-PC\Seokwon,C:\Windows\System32\slui.exe,C:\Win
+dows\System32\slui.exe -Embedding,2344,596,SeChangeNotifyPrivilege
+
+20180426224431.052225-360,Seokwon-PC\Seokwon,C:\Windows\system32\calc.exe,"C:\Wi
+ndows\system32\calc.exe" ,3656,1732,SeChangeNotifyPrivilege
+
+20180426224440.803505-360,Seokwon-PC\Seokwon,C:\Windows\system32\conhost.exe,??
+\C:\Windows\system32\conhost.exe "320099304650144828-413161640176376339777254453
+3-630814528-1630377919-1419705356,3888,388,SeChangeNotifyPrivilege
+
+20180426224440.803505-360,Seokwon-PC\Seokwon,C:\Windows\system32\cmd.exe,"C:\Win
+dows\system32\cmd.exe" ,3988,1732,SeChangeNotifyPrivilege
+
+Problem 3) 
+
+The first thing we need to know and do in order to exploit the system privileged VBScripts is that we need to be able to inject our own code into the file, before the process executes it and then deletes it. In order to do that, we make a file monitor code. 
+
+On the code, first of all, we define a list of directories and the directories in the list are what we are going to monitor. Then we define start_monitor function that will create a monitoring thread for each directories. 
+
+Secondly, we call the ReadDirectoryChangesW function. What it does is that it let us know when there is any changes. The method how it allows us to know if there is any change is that we get the filename that had changes and the type of event that happened. 
+
+Third, all we have to do is just to print out to see what happened to specific files that happened. 

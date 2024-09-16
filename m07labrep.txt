@@ -1,0 +1,132 @@
+Seokwon Yang 000769235 
+
+Problem 2 
+
+Address  Message  
+
+0BADF00D seokwon.yang@edu.sait.ca 
+         [*] Pycommand Executed! 
+
+Problem 3 
+
+1) Stack frame after entering print_all()
+
+0022FF28  /0022FF68  hÿ".
+0022FF2C  |004019CB  Ë^Y@.  RETURN to callprin.004019CB from <JMP.&msvcrt.atexit>
+0022FF30  |00401970  p^Y@.  callprin.00401970
+0022FF34  |00400080  <80>.@.  ASCII "PE"
+0022FF38  |0022FF24  $ÿ".
+0022FF3C  |7FFD6000  .`ý^?
+0022FF40  |00000000  ....
+0022FF44  |00000000  ....
+0022FF48  |0022FF68  hÿ".
+0022FF4C  |00401288  <88>^R@.  RETURN to callprin.00401288 from callprin.00401483
+0022FF50  |00000001  ^A...
+0022FF54  |00600F40  @^O`.
+0022FF58  |00601578  x^U`.
+0022FF5C  |0022FF68  hÿ".
+0022FF60  |77A02811  ^Q( w  RETURN to msvcrt.77A02811 from msvcrt.77A01585
+0022FF64  |7FFD6000  .`ý^?
+
+2) Values of the two parameter passed into print_all() 
+
+0022FF20   00404004  ^D@@.  ASCII "The address of main is "
+0022FF24   00401483  <83>^T@.  Entry address
+
+Problem 4 
+
+Address	 Message
+
+75CCD653 [*] Found: jmp esp (0x75ccd653) 
+75CD2001 [*] Found: jmp esp (0x75cd2001) 
+777450E7 [*] Found: jmp esp (0x777450e7)  
+77DBE6E7 [*] Found: jmp esp (0x77dbe6e7) 
+77DC19DF [*] Found: jmp esp (0x77dc19df) 
+77E00BB3 [*] Found: jmp esp (0x77e00bb3)  
+77E306CD [*] Found: jmp esp (0x77e306cd) 
+	 [*] Finished searching for instruction, check the Log window. 
+
+Problem 5 
+
+83 ec 1c 
+8b 44 24 20 
+8b 00 
+8b 00 
+3d 91 00 00 c0 
+77 4e 
+3d 8d 00 00 c0 
+73 60 
+3d 05 00 00 c0 
+0f 85 cc 00 00 00
+c7 44 24 04 00 00 00 
+00 
+c7 04 24 0b 00 00 00 
+e8 20 2a 00 00
+83 f8 01 
+0f 84 48 01 00 00 
+85 c0 
+0f 84 34 ff ff ff
+c7 04 24 04 00 00 00 
+ff d0 
+b8 ff ff ff ff 
+e9 23 ff ff ff 
+90 
+c7 04 24 0b 00 00 00 
+ff d0 
+b8 ff ff ff ff 
+c7 44 24 04 01 00 00 
+00 
+c7 04 24 08 00 00 00 
+e8 01 29 00 00 
+c7 04 24 00 00 00 00 
+e8 ed 0e 00 00 
+b8 ff ff ff ff 
+e9 e5 fe ff ff 
+c7 44 24 04 01 00 00 
+00 
+c7 04 24 04 00 00 00 
+e8 d7 28 00 00 
+83 c8 ff 
+e9 c9 fe ff ff 
+c7 44 24 04 01 00 00 
+00 
+c7 04 24 0b 00 00 00 
+e8 bb 28 00 00 
+83 c8 ff 
+e9 ad fe ff ff 
+8d 74 26 00 
+8d bc 27 00 00 00 
+55 
+89 e5 
+53 
+83 ec 14 
+a1 70 50 40 00 
+85 c0 
+74 1c 
+c7 44 24 08 00 00 00 
+00
+c7 44 24 04 02 00 00 
+00 
+c7 04 24 00 00 00 00
+ff d0 
+       .
+       . 
+       . 
+       .
+
+<__CTOR_LIST__>: 
+	ff
+	ff
+	ff
+	ff 
+<.ctors.65534>:
+	90
+	3b 40 00
+	00 00 
+<__DTOR_LIST__>:
+	ff
+	ff
+	ff
+	ff 00 
+	00 00 
+

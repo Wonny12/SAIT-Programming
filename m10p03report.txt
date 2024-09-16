@@ -1,0 +1,7 @@
+Problem 3 
+
+/* The m10p03.c file that I submitted is the code for this problem :) */ 
+
+The address of first block was 0x003B22A0 
+The address of second block was 0x003B22A8 
+The address of third block was 0x007422A8

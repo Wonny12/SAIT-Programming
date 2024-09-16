@@ -1,0 +1,20 @@
+Script started on Thu 12 Apr 2018 01:07:49 AM MDT
+]0;user@ubuntu-seokwon: ~/git/seokwon-y/python/m13[01;32muser@ubuntu-seokwon[00m:[01;34m~/git/seokwon-y/python/m13[00m$ python m13p01.py 
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>ITSS main page</title>
+</head>
+<body>
+
+<h4 style="text-align: center; color:
+	   rgb(0,0,255);">Please use the secure website.</h4>
+</body>
+</html>
+
+]0;user@ubuntu-seokwon: ~/git/seokwon-y/python/m13[01;32muser@ubuntu-seokwon[00m:[01;34m~/git/seokwon-y/python/m13[00m$ exit
+exit
+
+Script done on Thu 12 Apr 2018 01:07:59 AM MDT

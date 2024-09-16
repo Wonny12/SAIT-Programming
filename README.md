@@ -1,7 +1,7 @@
-**C-Programming-SAIT**
+**Python-Programming-SAIT**
 
-Welcome to C_Programming-SAIT repository.
+Welcome to Python_Programming-SAIT repository.
 
-These are codes that I developed using C programming language while at school.
+These are codes that I developed using Python programming language while at school.
 
 Thank you

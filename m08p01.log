@@ -1,0 +1,138 @@
+00130000  Unload C:\Program Files\Mozilla Firefox\firefox.exe
+5F6B0000  Unload C:\Program Files\Mozilla Firefox\xul.dll
+6B710000  Unload C:\Windows\system32\d2d1.dll
+6BE00000  Unload C:\Windows\system32\dwrite.dll
+6BF40000  Unload C:\Program Files\Mozilla Firefox\nss3.dll
+6C080000  Unload C:\Program Files\Mozilla Firefox\ucrtbase.DLL
+6C1B0000  Unload C:\Program Files\Mozilla Firefox\nssckbi.dll
+6C210000  Unload C:\Program Files\Mozilla Firefox\lgpllibs.dll
+6D800000  Unload C:\Windows\system32\mscms.dll
+6D8B0000  Unload C:\Windows\System32\Wpc.dll
+6E3C0000  Unload C:\Program Files\Mozilla Firefox\freebl3.dll
+6E580000  Unload C:\Windows\system32\dbghelp.dll
+6E9C0000  Unload C:\Program Files\Mozilla Firefox\softokn3.dll
+701D0000  Unload C:\Windows\system32\api-ms-win-downlevel-advapi32-l2-1-0.dll
+70240000  Unload C:\Windows\system32\explorerframe.dll
+70A70000  Unload C:\Windows\System32\winrnr.dll
+70A80000  Unload C:\Windows\system32\pnrpnsp.dll
+70AA0000  Unload C:\Windows\system32\napinsp.dll
+70B50000  Unload C:\Windows\system32\WSOCK32.dll
+70B60000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-crt-utility-l1-1-0.dll
+70BD0000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-crt-environment-l1-1-0.dll
+70D20000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-crt-filesystem-l1-1-0.dll
+70E80000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-crt-time-l1-1-0.dll
+70E90000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-crt-multibyte-l1-1-0.dll
+70EA0000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-crt-math-l1-1-0.dll
+70EB0000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-crt-locale-l1-1-0.dll
+70EC0000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-crt-convert-l1-1-0.dll
+70ED0000  Unload C:\Program Files\Mozilla Firefox\MSVCP140.dll
+70F90000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-crt-stdio-l1-1-0.dll
+70FA0000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-crt-heap-l1-1-0.dll
+71010000  Unload C:\Windows\system32\rasadhlp.dll
+71020000  Unload C:\Windows\system32\wbem\wbemsvc.dll
+71270000  Unload C:\Windows\system32\wbem\wbemprox.dll
+713E0000  Unload C:\Windows\system32\NTDSAPI.dll
+71490000  Unload C:\Windows\system32\wbem\fastprox.dll
+716A0000  Unload C:\Windows\system32\wbemcomn.dll
+72150000  Unload C:\Windows\system32\dhcpcsvc.DLL
+721F0000  Unload C:\Windows\System32\fwpuclnt.dll
+73600000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-crt-string-l1-1-0.dll
+73610000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-core-synch-l1-2-0.dll
+73620000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-core-file-l2-1-0.dll
+73630000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-core-timezone-l1-1-0.dll
+73820000  Unload C:\Windows\system32\WINNSI.DLL
+73830000  Unload C:\Windows\system32\IPHLPAPI.DLL
+738A0000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-core-file-l1-2-0.dll
+738B0000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-core-processthreads-l1-1-1.dll
+738C0000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-core-localization-l1-2-0.dll
+738D0000  Unload C:\Program Files\Mozilla Firefox\mozglue.dll
+73910000  Unload C:\Program Files\Mozilla Firefox\api-ms-win-crt-runtime-l1-1-0.dll
+73940000  Unload C:\Windows\system32\MSIMG32.dll
+739C0000  Unload C:\Windows\system32\AUDIOSES.DLL
+73C00000  Unload C:\Windows\system32\NLAapi.dll
+73C10000  Unload C:\Windows\system32\WINMM.dll
+73D80000  Unload C:\Windows\system32\ntmarta.dll
+73EE0000  Unload C:\Windows\system32\samcli.dll
+73F00000  Unload C:\Windows\system32\netutils.dll
+74110000  Unload C:\Windows\system32\HID.DLL
+74160000  Unload C:\Windows\system32\DUser.dll
+741D0000  Unload C:\Windows\system32\WTSAPI32.dll
+741E0000  Unload C:\Windows\system32\XmlLite.dll
+74210000  Unload C:\Windows\system32\api-ms-win-downlevel-shlwapi-l2-1-0.dll
+74220000  Unload C:\Windows\system32\dwmapi.dll
+74240000  Unload C:\Windows\System32\MMDevApi.dll
+74370000  Unload C:\Windows\system32\DUI70.dll
+74650000  Unload C:\Windows\system32\AVRT.dll
+74660000  Unload C:\Program Files\Mozilla Firefox\VCRUNTIME140.dll
+74680000  Unload C:\Windows\system32\UxTheme.dll
+746C0000  Unload C:\Windows\System32\PROPSYS.dll
+747C0000  Unload C:\Windows\system32\SAMLIB.dll
+74DA0000  Unload C:\Windows\system32\VERSION.dll
+74E30000  Unload C:\Windows\System32\wshtcpip.dll
+750A0000  Unload C:\Windows\system32\rsaenh.dll
+75190000  Unload C:\Windows\system32\Dnsapi.dll
+752C0000  Unload C:\Windows\System32\wship6.dll
+752D0000  Unload C:\Windows\System32\mswsock.dll
+75310000  Unload C:\Windows\system32\CRYPTSP.dll
+754B0000  Unload C:\Windows\System32\wevtapi.dll
+75630000  Unload C:\Windows\system32\Secur32.dll
+75790000  Unload C:\Windows\system32\SSPICLI.DLL
+757B0000  Unload C:\Windows\system32\apphelp.dll
+75800000  Unload C:\Windows\system32\CRYPTBASE.dll
+75870000  Unload C:\Windows\system32\RpcRtRemote.dll
+75880000  Unload C:\Windows\system32\WINSTA.dll
+75910000  Unload C:\Windows\system32\MSASN1.dll
+75920000  Unload C:\Windows\system32\profapi.dll
+75930000  Unload C:\Windows\system32\USERENV.dll
+75950000  Unload C:\Windows\system32\CRYPT32.dll
+75A80000  Unload C:\Windows\system32\WINTRUST.dll
+75AB0000  Unload C:\Windows\system32\KERNELBASE.dll
+75B00000  Unload C:\Windows\system32\api-ms-win-downlevel-user32-l1-1-0.dll
+75B10000  Unload C:\Windows\system32\api-ms-win-downlevel-shlwapi-l1-1-0.dll
+75B20000  Unload C:\Windows\system32\DEVOBJ.dll
+75B40000  Unload C:\Windows\system32\api-ms-win-downlevel-version-l1-1-0.dll
+75BE0000  Unload C:\Windows\system32\api-ms-win-downlevel-advapi32-l1-1-0.dll
+75BF0000  Unload C:\Windows\system32\api-ms-win-downlevel-ole32-l1-1-0.dll
+75C00000  Unload C:\Windows\system32\CFGMGR32.dll
+75C30000  Unload C:\Windows\system32\api-ms-win-downlevel-normaliz-l1-1-0.dll
+75C40000  Unload C:\Windows\system32\RPCRT4.dll
+75CF0000  Unload C:\Windows\SYSTEM32\sechost.dll
+75D10000  Unload C:\Windows\system32\msvcrt.dll
+75DC0000  Unload C:\Windows\system32\NSI.dll
+75E30000  Unload C:\Windows\system32\iertutil.dll
+76070000  Unload C:\Windows\system32\SHLWAPI.dll
+760D0000  Unload C:\Windows\system32\normaliz.DLL
+760E0000  Unload C:\Windows\system32\WININET.dll
+76390000  Unload C:\Windows\system32\SHELL32.dll
+76FE0000  Unload C:\Windows\system32\OLEAUT32.dll
+77080000  Unload C:\Windows\system32\WS2_32.dll
+770C0000  Unload C:\Windows\system32\ole32.dll
+77220000  Unload C:\Windows\system32\WLDAP32.dll
+772F0000  Unload C:\Windows\system32\IMM32.DLL
+77490000  Unload C:\Windows\system32\MSCTF.dll
+77560000  Unload C:\Windows\system32\ADVAPI32.dll
+77610000  Unload C:\Windows\system32\USP10.dll
+776B0000  Unload C:\Windows\system32\SETUPAPI.dll
+77850000  Unload C:\Windows\system32\user32.dll
+77920000  Unload C:\Windows\system32\kernel32.dll
+77A00000  Unload C:\Windows\SYSTEM32\ntdll.dll
+77B50000  Unload C:\Windows\system32\LPK.dll
+77B70000  Unload C:\Windows\system32\CLBCatQ.DLL
+77C00000  Unload C:\Windows\system32\GDI32.dll
+          Process terminated
+End of session
+
+/* Note to Jan */ 
+
+Jan, I just checked that my log didn't print out two things. 
+
+1. 77A33C8C [20;11:06] Attached process paused at ntdll.DbgBreakpoint
+            [20:11:06] Thread 00000DE8 terminated, exit code 0 
+	    [20:11:08] Thread 00000C8C terminated, exit code 0  
+	    [20:11:10] Thread 00000E88 terminated, exit code 0 
+   6C0BAA18 New thread with ID 00000D24 created 
+   75AB8450 [20:11:22] Exception 406D1388       
+            Firefox hooking is prepared
+
+2. Instead of  "Unload", it was "Modules" on my screen of immunity debugger. For some reason, it keeps printing out "Unload".  
+            

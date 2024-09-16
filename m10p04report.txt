@@ -1,0 +1,7 @@
+Problem 4
+
+Line 1~41 is the class function. It defines some global variables that we will be using. These global variables will be used in order to track data about the test repetitions and also the test cases which will be mutation to the sample files. 
+
+Line 43~ 50 is the file_picker function. This function basically uses functions that are made and stored in Python. The purpose is to list the files in a directory and randomly pick one of them for mutation.   
+
+Line 53~147 is the function in order to execute the monitoring thread and track for crashes. Looking at the details, it will create two threads of a file first. One of the threads will be passed to the mutation function and then into the debugger. The other thread will be used in order to monitoring. The functions "start_debugger" and "monitor_debugger" will be used for the threads. The function "check_accessv" checks for an exception, save the information and details of crash, terminate process and then returned the saved data.       

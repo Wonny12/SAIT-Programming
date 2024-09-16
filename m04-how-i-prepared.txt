@@ -1,0 +1,12 @@
+The first thing I've done is that I've read the questions of the module 04 lab.
+So, I can understand and analyze about what the questions require and also the output of the program. 
+
+Then, I do check the link "greenteapress" as the lab requires to read some words. 
+
+I've checked the class objectives which are written on the lab as well. The class objectives tell you what goals students must be focus on when they do the lab and I think it is important to check them so, we know what we have to learn.   
+
+Also, as I have lack of understanding some english words and some technical terms, I've checked the meaning of those words. 
+I used Google but also the link of "Official Tutorial" which is at our class website. It mostly provides the basics of python programming, so I feel it has various imformation that are useful. 
+
+Then, I start on working each problems with using my knowledge. The first step I usually do is to build an algorithm.
+

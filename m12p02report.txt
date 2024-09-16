@@ -1,0 +1,17 @@
+Script started on Wed 04 Apr 2018 10:08:57 PM MDT
+]0;user@ubuntu-seokwon: ~/git/seokwon-y/python/m12[01;32muser@ubuntu-seokwon[00m:[01;34m~/git/seokwon-y/python/m12[00m$ ls
+m12decode.py      m12p03report.txt             [0m[01;32msniffer.py[0m
+m12disco.py       [01;32mm12sniff1.py[0m                 sniffer_with_icmp.py
+m12p01report.txt  [01;32mscanner.py[0m
+m12p02report.txt  sniffer_ip_header_decode.py
+]0;user@ubuntu-seokwon: ~/git/seokwon-y/python/m12[01;32muser@ubuntu-seokwon[00m:[01;34m~/git/seokwon-y/python/m12[00m$ sudo python m12disco.py 
+[sudo] password for user: 
+Protocol: ICMP 172.217.3.195 -> 192.168.0.11
+Protocol: ICMP 172.217.3.195 -> 192.168.0.11
+Protocol: ICMP 172.217.3.195 -> 192.168.0.11
+Protocol: ICMP 172.217.3.195 -> 192.168.0.11
+Protocol: ICMP 172.217.3.195 -> 192.168.0.11
+^C]0;user@ubuntu-seokwon: ~/git/seokwon-y/python/m12[01;32muser@ubuntu-seokwon[00m:[01;34m~/git/seokwon-y/python/m12[00m$ exit
+exit
+
+Script done on Wed 04 Apr 2018 10:09:12 PM MDT

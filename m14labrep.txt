@@ -1,0 +1,46 @@
+Problem 1) 
+
+PID: 1196 - chrome.exe - @Tom Y - Google Chrome ]
+
+h g f o s d f f g o d f o g d f g f f d g d f q
+[ PID: 1152 - Explorer.EXE - Temp ]
+
+g
+[ PID: 1152 - Explorer.EXE - g - Temp ]
+
+f
+[ PID: 1152 - Explorer.EXE - gf - Temp ]
+
+f
+[ PID: 1152 - Explorer.EXE - gff - Temp ]
+
+d
+[ PID: 1152 - Explorer.EXE - gffd - Temp ]
+
+g
+[ PID: 1152 - Explorer.EXE - gffdg - Temp ]
+
+g
+[ PID: 1152 - Explorer.EXE - gffdgg - Temp ]
+
+f
+[ PID: 1152 - Explorer.EXE - gffdggf - Temp ]
+
+d
+[ PID: 1152 - Explorer.EXE - gffdggfd - Temp ]
+
+g
+[ PID: 1152 - Explorer.EXE - Start menu ]
+
+d f d s s d f
+
+Problem 2) 
+
+I submitted the screenshot and it is named as "m14p02labrep.bmp". 
+
+Problem 4) 
+
+First of all, variables are created in order to save the information about mouse clicks and double clicks of an user. Also, it saves the number of the keystrokes on the system. Please note that the whole purpose of doing this step is to make sure if the environment is using a sandbox or not. Also, keylogging and screenshots will be used to make sure if the environment is using a sandbox or not.
+
+Then, Timestamps of user input and the time which display how long the system has been runing will be used to check if the environment is using a sandbox and a sandbox is running well. To prove it, we can see an event register quickly after sending a phish and this shows you that a sandboix is not working. You can try if 100 double clicks are recorded in a row and that possibly means a sandbox is running. If a sandbox is found, the trojan will bail out.
+

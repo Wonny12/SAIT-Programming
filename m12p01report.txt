@@ -1,0 +1,24 @@
+Script started on Wed 04 Apr 2018 10:06:52 PM MDT
+]0;user@ubuntu-seokwon: ~/git/seokwon-y/python/m12[01;32muser@ubuntu-seokwon[00m:[01;34m~/git/seokwon-y/python/m12[00m$ ls
+m12decode.py      m12p03report.txt             [0m[01;32msniffer.py[0m
+m12disco.py       [01;32mm12sniff1.py[0m                 sniffer_with_icmp.py
+m12p01report.txt  [01;32mscanner.py[0m                   test.txt
+m12p02report.txt  sniffer_ip_header_decode.py
+]0;user@ubuntu-seokwon: ~/git/seokwon-y/python/m12[01;32muser@ubuntu-seokwon[00m:[01;34m~/git/seokwon-y/python/m12[00m$ sudo python m12sniff1.py 
+[sudo] password for user: 
+('E\x00\x00T\x00\x00\x00\x008\x01\x11Z\xac\xd9\x03\xc3\xc0\xa8\x00\x0b\x00\x00\xd8nP\x97\x00\x01\xe5\xa0\xc5Z\x00\x00\x00\x00k*\x02\x00\x00\x00\x00\x00\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./01234567', ('172.217.3.195', 0))
+]0;user@ubuntu-seokwon: ~/git/seokwon-y/python/m12[01;32muser@ubuntu-seokwon[00m:[01;34m~/git/seokwon-y/python/m12[00m$ exot[K[Kot
+No command 'exot' found, did you mean:
+ Command 'emot' from package 'ruby-emot' (universe)
+exot: command not found
+]0;user@ubuntu-seokwon: ~/git/seokwon-y/python/m12[01;32muser@ubuntu-seokwon[00m:[01;34m~/git/seokwon-y/python/m12[00m$ exit
+exit
+
+Script done on Wed 04 Apr 2018 10:07:08 PM MDT
+
+**********************************************************************************************
+
+#The difference of implementation between Windows and Linux is that Windows will allow users to sniff all incoming packets but Linux forces us to specify that we are sniffing ICMP.
+~                      
+
+

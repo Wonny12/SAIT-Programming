@@ -1,0 +1,5 @@
+a) The difference between STDCALLFastLogHook() and FastLogHook() is that FastLogHook is an python object which sets up hard hook very easily. It also uses assembly stub to execute a hook function. The purpose is that it has to store all register and memory locations by doing that. 
+
+b) Imm.getKnowledge returns a library (or dictionary) of a list. In the list, there are values keyed by it's argument. 
+
+c) The second parameter of the imm.disasmBAckward() displays the number of opcodes are disassembled into the format that people are able to read.  

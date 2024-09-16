@@ -1,0 +1,33 @@
+Seokwon Yang 
+
+ITSC203B 000769235
+
+Problem 1 
+
+1) I could see the file ghp_inject.dll had the message "I am inside the process you injected! Hello from the process!".  
+
+2) The address kernel for the DLL path is 0x02780000.
+
+3) The location of the LoadLibraryA() function is 0x75a2de85   
+
+4) If we set up standard of "protect" option of the MEMORY_BASIC_INFORMATION structure of WIn32 API, data can be written as PAGE_READWRITE. 
+
+5) PROCESS_ALL_ACCESS is the statement that supervise (manage) access rights to the processes. PROCESS_ALL_ACCESS option is the best option when we do work on injecting.  
+
+6) VIRTUAL_MEM displays how big enough space is in order to save the path of DLL.
+7. The reason why we use h_loadlib variables is because we need to get the address of LoadLibraryA() function with using those variables. 
+
+Problem 2 
+
+1 ) We have to open two calc.exe processes. The first one should be from command prompt. In the command prompt, we just have to type calc in order to open it. The other calc.exe process should be from the start menu of the windows. 
+
+2) We have to open the task manager by typing "taskmgr" command on the start menu of the windows. What we have to check there is pids for both processes. 
+
+3) This is the main part. You put python cone_injector.py <pid of the calc.exe process from command prompt> <pid of the calc.exe process from the start menu>. In this case, my pids were 2992 and 2760.
+
+4) I'm receiving the message. 
+
+[*] Remote thread created with a thread ID of: 0x00000f28 
+[*] Process 2760 should not be running anymore!  
+
+
